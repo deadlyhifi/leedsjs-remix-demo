@@ -1,0 +1,28 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  padding: 1rem;
+}
+
+code {
+  background-color: lightsalmon;
+  padding: 2px 4px;
+  border-radius: 0.2rem;
+}
+
+.error-container,
+.form-validation-error {
+  padding: 1rem;
+  border-radius: 0.4rem;
+  border: 4px solid lightcoral;
+}
+
+.error-container :where(h2, p) {
+  margin: 0 0 0.5rem 0;
+}
+
+input:disabled {
+  background-color: lightgrey;
+}
